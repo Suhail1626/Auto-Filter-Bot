@@ -110,7 +110,7 @@ async def start(client:Client, message):
             InlineKeyboardButton('⚙ ꜰᴇᴀᴛᴜʀᴇs', callback_data='features'),
             InlineKeyboardButton('💸 ᴘʀᴇᴍɪᴜᴍ', callback_data='buy_premium')
         ],[
-            InlineKeyboardButton('🚫 ᴇᴀʀɴ ᴍᴏɴᴇʏ ᴡɪᴛʜ ʙᴏᴛ 🚫', callback_data='earn')
+            InlineKeyboardButton('🤖 𝚄𝙿𝙳𝙰𝚃𝙴𝚂 🤖', url='https://t.me/CinemaColonyUpdates')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_text(
